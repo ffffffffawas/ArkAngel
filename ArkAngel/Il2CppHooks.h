@@ -18,9 +18,9 @@ static std::vector<AuctionHouseItemPrice> itemPriceDatas;
 void* oSendPlayerPosition1 = nullptr;
 std::chrono::steady_clock::time_point lastCatchTime = std::chrono::high_resolution_clock::now();
 
-void/*System.Void*/ hkSendPlayerPosition1(Il2CppObject*/*Kernys.Bson.BSONObject*/ playerPosMessage)
+void/*System.Void*/ hkSendPlayerPosition1(Il2CppObject)
 {
-	return reinterpret_cast<void(*)(Il2CppObject*/*Kernys.Bson.BSONObject*/ playerPosMessage)>(oSendPlayerPosition1)(playerPosMessage);
+	return reinterpret_cast<void(*)(Il2CppObject)
 }
 void* oSendPlayerPosition0;
 void/*System.Void*/ hkSendPlayerPosition0()
